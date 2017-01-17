@@ -1,0 +1,24 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "fs": "0.0.2",
+    "nodemon": "^1.10.2",
+    "request": "^2.75.0",
+    "winston": "^2.2.0",
+    "winston-daily-rotate-file": "^1.3.1"
+  },
+  "description": "Node js api",
+  "main": "app.js",
+  "author": "AG",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.10.2"
+  }
+}
